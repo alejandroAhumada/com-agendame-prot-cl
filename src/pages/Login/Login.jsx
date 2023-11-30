@@ -16,7 +16,6 @@ const Login = () => {
         url: "https://us-central1-com-agendame-cl.cloudfunctions.net/signInWithDNI",
         headers: {
           "content-type": "application/json",
-          "Access-Control-Allow-Origin": "*",
         },
         data: [
           {
